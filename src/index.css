@@ -1,5 +1,18 @@
-@import "tailwindcss";
+@import url("https://free.bboxtype.com/embedfonts/?family=FiraGO:400");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 
-@theme {
+@import "tailwindcss";
+@import "@radix-ui/themes/styles.css";
+@plugin "tailwindcss-radix";
+
+* {
+  font-family: "FiraGO", sans-serif;
+}
+
+:root {
   --color-pink-300: #8338ec;
+}
+
+h1 {
+  font-family: "Fredoka One";
 }
